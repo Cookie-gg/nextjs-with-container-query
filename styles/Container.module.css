@@ -1,0 +1,15 @@
+.parent {
+  resize: both;
+  position: relative;
+  overflow: hidden;
+  max-width: initial;
+  width: 400px;
+  contain: layout inline-size;
+}
+
+.child {
+  color: blue;
+  @container (width >= 500px) {
+    color: red;
+  }
+}
