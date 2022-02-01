@@ -1,6 +1,7 @@
 {
   "name": "nextjs-with-container-query",
-  "private": true,
+  "author": "Cookie_gg",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
